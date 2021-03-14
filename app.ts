@@ -1,28 +1,15 @@
 export {}
 
-// let user: object
+// Array type
 
-// user = { name: 'Tim', email: 'tim@test.com', age: 19}
+let sports: string[] // Array<string>
 
-// user = {username: 'TimMote'}
-
-// console.log(user)
-
+sports.push('Football')
+sports.push('Tennis')
 
 
-// let user: {name: string; email: string; age: number}
-
-// user = { name: 'Tim', email: 'tim@test.com', age: 19}
+const numbers = [1,2,3]
 
 
 
-let user = { name: 'Tim', email: 'tim@test.com', age: 19}
-
-// let user: Object
-// let user: {}
-// user = {name: 'Tom', age: 40, user}
-
-
-
-console.log(user)
 
