@@ -1,20 +1,28 @@
 export {}
 
-//* Dynamic type vs Static type
+// let user: object
 
-let str: number
-str = 10
-console.log(typeof str)
+// user = { name: 'Tim', email: 'tim@test.com', age: 19}
 
-const sum = (a: number, b: number) => {
-    return a+b
-}
+// user = {username: 'TimMote'}
+
+// console.log(user)
 
 
-const total = sum(5, 10)
-console.log(total)
-  
-  //* 1. string --> 'hello', "5", `true`
-  //* 2. number --> 10, 8.75
-  //* 3. boolean --> true / false
-  
+
+// let user: {name: string; email: string; age: number}
+
+// user = { name: 'Tim', email: 'tim@test.com', age: 19}
+
+
+
+let user = { name: 'Tim', email: 'tim@test.com', age: 19}
+
+// let user: Object
+// let user: {}
+// user = {name: 'Tom', age: 40, user}
+
+
+
+console.log(user)
+

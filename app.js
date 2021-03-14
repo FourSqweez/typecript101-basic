@@ -1,12 +1,13 @@
-//* Dynamic type vs Static type
-var str;
-str = 10;
-console.log(typeof str);
-var sum = function (a, b) {
-    return a + b;
-};
-var total = sum(5, 10);
-console.log(total);
-//* 1. string --> 'hello', "5", `true`
-//* 2. number --> 10, 8.75
-//* 3. boolean --> true / false
+"use strict";
+exports.__esModule = true;
+// let user: object
+// user = { name: 'Tim', email: 'tim@test.com', age: 19}
+// user = {username: 'TimMote'}
+// console.log(user)
+// let user: {name: string; email: string; age: number}
+// user = { name: 'Tim', email: 'tim@test.com', age: 19}
+var user = { name: 'Tim', email: 'tim@test.com', age: 19 };
+// let user: Object
+// let user: {}
+// user = {name: 'Tom', age: 40, user}
+console.log(user);
