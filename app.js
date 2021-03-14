@@ -1,13 +1,11 @@
 "use strict";
 exports.__esModule = true;
-// let user: object
-// user = { name: 'Tim', email: 'tim@test.com', age: 19}
-// user = {username: 'TimMote'}
-// console.log(user)
-// let user: {name: string; email: string; age: number}
-// user = { name: 'Tim', email: 'tim@test.com', age: 19}
-var user = { name: 'Tim', email: 'tim@test.com', age: 19 };
-// let user: Object
-// let user: {}
-// user = {name: 'Tom', age: 40, user}
-console.log(user);
+// Enum (Enumerated type)
+var Role;
+(function (Role) {
+    Role["CLIENT"] = "CLIENT";
+    Role["EDITOR"] = "EDITOR";
+    Role["ADMIN"] = "ADMIN";
+    Role["SUPER_ADMIN"] = "SUPER_ADMIN";
+})(Role || (Role = {}));
+console.log(Role);

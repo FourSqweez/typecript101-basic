@@ -1,15 +1,12 @@
+
 export {}
+// Enum (Enumerated type)
 
-// Array type
+enum Role {
+    CLIENT = 'CLIENT',
+    EDITOR = 'EDITOR',
+    ADMIN = 'ADMIN',
+    SUPER_ADMIN = 'SUPER_ADMIN',
+}
 
-let sports: string[] // Array<string>
-
-sports.push('Football')
-sports.push('Tennis')
-
-
-const numbers = [1,2,3]
-
-
-
-
+console.log(Role)
